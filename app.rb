@@ -6,4 +6,10 @@ class App < Sinatra::Base
     enable :sessions
     set :session_secret, "123"
   end
+  
+  get '/' do
+    
+  end
+  
+  
 end
